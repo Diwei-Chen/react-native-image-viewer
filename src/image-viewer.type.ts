@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { Image, ImageURISource, Text, View, ViewStyle } from 'react-native';
+import { ImageURISource, Text, View, ViewStyle } from 'react-native';
+import Image from 'react-native-fast-image';
 import { simpleStyle } from './image-viewer.style';
 
 interface IOnMove {
